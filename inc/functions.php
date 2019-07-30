@@ -2,8 +2,7 @@
 
 // PHP - Random Quote Generator
 
-// Create the Multidimensional array of quote elements and name it quotes
-// Each inner array element should be an associative array
+// Array of quotes for getRandomQuote function to draw from
 
 $quotes = [
   [
@@ -35,14 +34,14 @@ $quotes = [
 ];
 
 
-// Create the getRandomQuuote function and name it getRandomQuote
+// Get a random quote from the $quotes array
 
 function getRandomQuote($array) {
   $index = rand(0, count($array) - 1);
   return $array[$index];
 }
 
-// Create the printQuote funtion and name it printQuote
+// Generate HTML to display the quote
 
 function printQuote($array) {
   $quote = getRandomQuote($array);
