@@ -70,4 +70,16 @@ function printQuote($array) {
   echo($html);
 }
 
+// Generate random background color
+
+$colors = [
+  "IndianRed", "MediumVioletRed", "Tomato", "DarkKhaki",
+  "MediumPurple", "MediumSeaGreen", "RoyalBlue", "Sienna"
+];
+
+function getRandomBGC($array) {
+  $index = rand(0, count($array) - 1);
+  return $array[$index];
+}
+
 ?>
