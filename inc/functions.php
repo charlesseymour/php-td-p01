@@ -7,29 +7,34 @@
 $quotes = [
   [
     "quote" => "I have always imagined that Paradise will be a kind of library.",
-    "source" => "Jorge Luis Borges"
+    "source" => "Jorge Luis Borges",
+    "tags" => ["Argentina", "20th century"]
   ],
   [
     "quote" => "A university is just a group of buildings gathered around a library.",
-    "source" => "Shelby Foote"
+    "source" => "Shelby Foote",
+    "tags" => ["United States", "20th century"]
   ],
   [
     "quote" => "I had found my religion: nothing seemed more important to me than a book. I saw the library as a temple.",
     "source" => "Jean Paul Sartre",
     "citation" => "The Words",
-    "year" => 1963
+    "year" => 1963,
+    "tags" => ["France", "20th century"]
   ],
   [
     "quote" => "When I have a house of my own, I shall be miserable if I have not an excellent library.",
     "source" => "Jane Austen",
     "citation" => "Pride and Prejudice",
-    "year" => 1813
+    "year" => 1813,
+    "tags" => ["England", "19th century"]
   ],
   [
     "quote" => "Me, poor man, my library was dukedom large enough.",
     "source" => "William Shakespeare",
     "citation" => "The Tempest",
-    "year" => 1611
+    "year" => 1611,
+    "tags" => ["England", "17th century"]
   ]
 ];
 
