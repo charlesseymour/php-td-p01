@@ -55,10 +55,17 @@ function printQuote($array) {
   $html .= "<p class=\"source\">$quote[source]";
   if (isset($quote["citation"])) {
     $html .= "<span class=\"citation\">$quote[citation]</span>";
-  };
+  }
   if (isset($quote["year"])) {
     $html .= "<span class=\"year\">$quote[year]</span>";
-  };
+  }
+  if (isset($quote["tags"])) {
+    $html .= "<p class=\"tag-box\">";
+    foreach ($quote["tags"] as $tag) {
+      $html .= "<span class=\"tag\">$tag</span>";
+    }
+    $html .= "</p>";
+  }
   $html .= "</p>";
   echo($html);
 }
